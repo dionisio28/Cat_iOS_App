@@ -20,6 +20,7 @@
 		B7A2C01C2818B4DC00839FCA /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7A2C01B2818B4DC00839FCA /* Cat.wav */; };
 		B7A2C01D2818B4DC00839FCA /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7A2C01B2818B4DC00839FCA /* Cat.wav */; };
 		B7A2C01E2818B4DC00839FCA /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7A2C01B2818B4DC00839FCA /* Cat.wav */; };
+		B7A2C0212818F1D700839FCA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A2C0202818F1D700839FCA /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B7A2C00C2818B2F800839FCA /* CatAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatAppUITests.m; sourceTree = "<group>"; };
 		B7A2C00E2818B2F800839FCA /* CatAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatAppUITestsLaunchTests.m; sourceTree = "<group>"; };
 		B7A2C01B2818B4DC00839FCA /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		B7A2C0202818F1D700839FCA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A2C0212818F1D700839FCA /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,7 @@
 				B7A2C0012818B2F800839FCA /* CatAppTests */,
 				B7A2C00B2818B2F800839FCA /* CatAppUITests */,
 				B7A2BFE42818B2F700839FCA /* Products */,
+				B7A2C01F2818F1D700839FCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +143,14 @@
 				B7A2C00E2818B2F800839FCA /* CatAppUITestsLaunchTests.m */,
 			);
 			path = CatAppUITests;
+			sourceTree = "<group>";
+		};
+		B7A2C01F2818F1D700839FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A2C0202818F1D700839FCA /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
