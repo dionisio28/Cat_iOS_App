@@ -17,6 +17,9 @@
 		B7A2C0032818B2F800839FCA /* CatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A2C0022818B2F800839FCA /* CatAppTests.m */; };
 		B7A2C00D2818B2F800839FCA /* CatAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A2C00C2818B2F800839FCA /* CatAppUITests.m */; };
 		B7A2C00F2818B2F800839FCA /* CatAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A2C00E2818B2F800839FCA /* CatAppUITestsLaunchTests.m */; };
+		B7A2C01C2818B4DC00839FCA /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7A2C01B2818B4DC00839FCA /* Cat.wav */; };
+		B7A2C01D2818B4DC00839FCA /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7A2C01B2818B4DC00839FCA /* Cat.wav */; };
+		B7A2C01E2818B4DC00839FCA /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7A2C01B2818B4DC00839FCA /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 		B7A2C0082818B2F800839FCA /* CatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A2C00C2818B2F800839FCA /* CatAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatAppUITests.m; sourceTree = "<group>"; };
 		B7A2C00E2818B2F800839FCA /* CatAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B7A2C01B2818B4DC00839FCA /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				B7A2BFF42818B2F800839FCA /* LaunchScreen.storyboard */,
 				B7A2BFF72818B2F800839FCA /* Info.plist */,
 				B7A2BFF82818B2F800839FCA /* main.m */,
+				B7A2C01B2818B4DC00839FCA /* Cat.wav */,
 			);
 			path = CatApp;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				B7A2BFF62818B2F800839FCA /* LaunchScreen.storyboard in Resources */,
 				B7A2BFF32818B2F800839FCA /* Assets.xcassets in Resources */,
 				B7A2BFF12818B2F700839FCA /* Main.storyboard in Resources */,
+				B7A2C01C2818B4DC00839FCA /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A2C01D2818B4DC00839FCA /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A2C01E2818B4DC00839FCA /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
