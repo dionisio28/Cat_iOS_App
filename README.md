@@ -21,8 +21,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Meu primeiro aplicativo nativo utilizando Objective-C.
-
 Consiste em quando o usuário apertar no gato irá aparecer um texto escrito ˜Meow!!!" e irá ouvir um som de miado.
 
 
